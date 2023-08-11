@@ -118,7 +118,7 @@ header img {
     display: flex;
     flex-direction: column;
     padding: 0.5%;
-    margin-left: 2%;
+    margin-left: 10%;
 }
 
 .endereco strong {
@@ -138,6 +138,7 @@ span {
 
 .title {
     width: 100%;
+    margin-left: 10%;
 }
 
 .endereco {
@@ -151,6 +152,7 @@ span {
     display: flex;
     gap: 0.5rem;
     padding: 3%;
+    margin-left: 10%;
 }
 
 #social-grid a {
@@ -239,9 +241,10 @@ span {
 }
 
 .conteudo {
-    width: 65%;
-    margin-left: 10%;
+    width: 60%;
+    margin-left: 13%;
 }
+
 
 .title-text h1,
 .h1-2 h1 {
@@ -307,8 +310,8 @@ a.button {
 
 a.button:hover,
 a.button2:hover {
-    background-color: rgb(153, 0, 0);
-    transform: scale(0.9);
+    background-color: rgb(114, 0, 0);
+    transform: scale(1.1);
 }
 
 a.button2 {
@@ -323,9 +326,10 @@ a.button2 {
     padding: 16px 30px;
     border-radius: 3px;
     margin-top: 40px;
+    margin-bottom: 2%;
     gap: 5px;
     transition: 0.2s ease-in;
-    margin-left: 2%;
+    margin-left: 13%;
     color: #ffffff;
 }
 
@@ -423,18 +427,17 @@ a.button2 {
 
 .iframe iframe {
     background: white;
-    max-width: 540px;
-    width: calc(100% - 2px);
+    max-width: 400px;
+    width: calc(100%);
     border-radius: 3px;
     border: 1px solid rgb(219, 219, 219);
     box-shadow: none;
     display: block;
     margin: 0px 0px 12px;
-    min-width: 346px;
+    min-width: 326px;
     padding: 0px;
     margin-left: 0%;
-    height: 620px;
-
+    height: 600px;
 }
 
 .qrr {
@@ -559,10 +562,12 @@ a.button2 {
 
     .title {
         width: 100%;
+        max-width: 90%;
     }
 
     .endereco {
         width: 100%;
+        margin-bottom: 5%;
     }
 
     .endereco p {
@@ -711,8 +716,9 @@ a.button2 {
         width: 100%;
     }
 
-    .iframe {
-        width: 100%;
+    .iframe iframe {
+        width: 95%;
+        height: 690px;
     }
 
 }
@@ -739,7 +745,8 @@ a.button2 {
 
     .conteudo {
         width: 100%;
-        margin: 0;
+        margin-left: 5%;
+        max-width: 90%;
     }
 
     #container p,
@@ -770,9 +777,6 @@ a.button2 {
         margin-bottom: 5%;
     }
 
-    a.button2 {
-        float: left;
-    }
 
     .listra-container svg {
         display: none;
@@ -789,11 +793,12 @@ a.button2 {
 
     .title {
         width: 100%;
-
+        max-width: 90%;
     }
 
     .endereco {
         width: 100%;
+        max-width: 90%;
     }
 
     .endereco p {
@@ -898,9 +903,8 @@ a.button2 {
     }
 
     .iframe iframe {
-        width: 100vw;
+        width: 95%;
         height: 690px;
-
     }
 
     .qrr {
